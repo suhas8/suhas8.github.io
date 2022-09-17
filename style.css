@@ -1,0 +1,38 @@
+body,
+html {
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif; 
+}
+h1{
+  text-align: center;
+  color: ghostwhite;
+}
+
+hr{
+  border-color: #F05F44;
+  border-width: 3px;
+  max-width: 70px;
+}
+
+.btn {
+  background-color: #F05F44; 
+  border-radius: 300px;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn-lg:hover{
+  background-color: white;
+  color: #F05F44;
+  border: 2px solid #F05F44;
+}
